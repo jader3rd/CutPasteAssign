@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CutPasteAssign.Microsoft.5adb6da5-1f43-4f5a-bc7d-af0934b9fde8" Version="1.11" Language="en-US" Publisher="jader3rd" />
+    <DisplayName>CutPasteAssign</DisplayName>
+    <Description xml:space="preserve">A utility for taking the next step when refactoring code where you cut some code, and then paste that code into an assignment operation.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+</PackageManifest>
